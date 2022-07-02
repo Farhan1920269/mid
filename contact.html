@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farhan Noor Dehan | Web design and development</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_image.png" type="image/x-icon">
+</head>
+
+<body class="bg-dark">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="favicon_image.png" alt="Farhan Noor Dehan | Web design and development" width="40"
+                    height="40">
+                <!-- w:30 h:24 -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="education.html">My Education</a></li>
+                            <li><a class="dropdown-item" href="job.html">job experience</a></li>
+                            <li><a class="dropdown-item" href="research.html">My research work</a></li>
+                            <li><a class="dropdown-item" href="academic.html">My academic projects</a></li>
+                            <li><a class="dropdown-item" href="curricular.html">Extra Curricular Activities</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="personalproject.html">Some Personal Projects</a></li>
+
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Say Hello!</a>
+                    </li>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container my-4">
+        <h2 class="text-warning">Say Hello!</h2>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"> <font class="text-warning">Email address</font></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><font class="text-warning">Select your Query</font></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>None</option>
+                <option>Front-End Development</option>
+                <option>Back-End Development</option>
+                <option>Others</option>
+                
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"><font class="text-warning">Explain your concern</font></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          <!-- Button trigger modal -->
+            
+        <button type="button" class="btn btn-outline-success my-2" data-bs-toggle="modal" data-bs-target="#submitModal">Submit</button>
+          </form>
+
+
+  
+  <!-- submitModal -->
+  <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="submitModalLabel">Confirm</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Do you want to save changes?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Close</button>
+          <a href="index.html"><button type="button" class="btn btn-outline-success">Save changes</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+
+    <div class="container panel-warning">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">
+                <font class="text-warning" style="vertical-align: inherit;">© 2022 Farhan Noor Dehan
+                </font>
+            </p>
+
+            <a href="index.html"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="favicon_image.png" alt="Farhan Noor Dehan | Web design and development" width="60"
+                    height="60">
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">
+                        <font class="text-warning" style="vertical-align: inherit;">Home</font>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
+                        <font class="text-warning" style="vertical-align: inherit;">About me</font>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
+                        <font class="text-warning" style="vertical-align: inherit;">Say Hello!</font>
+                    </a></li>
+
+                <li class="nav-item">
+                    <div class="col">
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="education.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">My Education details
+                                    </font>
+                                </a></li>
+                            <li class="nav-item "><a href="job.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">My Job Experience</font>
+                                </a></li>
+                            <li class="nav-item "><a href="research.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">My Research Work</font>
+                                </a></li>
+                            <li class="nav-item "><a href="academic.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">My Academic Projects
+                                    </font>
+                                </a></li>
+                            <li class="nav-item "><a href="curricular.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">Co-curriculam Activities
+                                    </font>
+                                </a></li>
+                            <li class="nav-item "><a href="personalproject.html" class="nav-link px-2 text-muted">
+                                    <font class="text-warning" style="vertical-align: inherit;">My Personal Projects
+                                    </font>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
